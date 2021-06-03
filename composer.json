@@ -1,43 +1,45 @@
 {
-	"name": "gaomingcode/tinymce",
-	"description": "Web based JavaScript HTML WYSIWYG editor control.",
-	"license": [
-		"LGPL-2.1-only"
-	],
-	"keywords": [
-		"editor",
-		"wysiwyg",
-		"tinymce",
-		"richtext",
-		"javascript",
-		"html"
-	],
-	"homepage": "http://www.tinymce.com",
-	"type": "component",
-	"extra": {
-		"component": {
-			"scripts": [
-				"tinymce.js",
-				"plugins/*/plugin.js",
-				"themes/*/theme.js",
-				"themes/*/icons.js"
-			],
-			"files": [
-				"tinymce.min.js",
-				"plugins/*/plugin.min.js",
-				"themes/*/theme.min.js",
-				"skins/**",
-				"icons/*/icons.min.js"
-			]
-		}
-	},
-	"archive": {
-		"exclude": [
-			"README.md",
-			"bower.js",
-			"package.json",
-			".npmignore",
-			"CHANGELOG.md"
-		]
-	}
+    "name": "gaomingcode/tinymce",
+    "description": "Web based JavaScript HTML WYSIWYG editor control.",
+    "type": "library",
+    "license": [
+        "LGPL-2.1-only"
+    ],
+    "keywords": [
+        "editor", "wysiwyg", "tinymce", "richtext", "javascript", "html"
+    ],
+    "homepage": "http://www.tinymce.com",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Tiny Technologies, Inc"
+        }
+    ],
+    "extra": {
+        "component": {
+            "scripts": [
+                "tinymce.js",
+                "plugins/*/plugin.js",
+                "themes/*/theme.js",
+                "themes/*/icons.js"
+            ],
+            "files": [
+                "tinymce.min.js",
+                "plugins/*/plugin.min.js",
+                "themes/*/theme.min.js",
+                "skins/**",
+                "icons/*/icons.min.js"
+            ]
+        }
+    },
+    "archive": {
+        "exclude": [
+            "README.md",
+            "bower.js",
+            "package.json",
+            ".npmignore",
+            "CHANGELOG.md"
+        ]
+    }
 }
