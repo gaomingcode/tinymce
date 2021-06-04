@@ -2,7 +2,7 @@
 
 [![GitHub Version](https://img.shields.io/github/release/gaomingcode/tinymce.svg)](https://github.com/gaomingcode/tinymce)
 [![Packagist Downloads](https://img.shields.io/packagist/dm/gaomingcode/tinymce)](https://github.com/gaomingcode/tinymce)
-[![Packagist License](https://img.shields.io/packagist/l/gaomingcode/tinymce)](https://github.com/gaomingcode/tinymce)
+[![Github License](https://img.shields.io/github/license/gaomingcode/tinymce)](https://github.com/gaomingcode/tinymce)
 
 ## Installation
 
@@ -11,12 +11,12 @@
 ```
 composer require gaomingcode/tinymce
 ```
-###
+
+## ReadMe from Origin
 
 TinyMCE is the world's most advanced open source core rich text editor.
 
 Trusted by millions of developers, and used by some of the world's largest companies and fastest-growing start-ups, TinyMCE is the WYSIWYG editor that is built to scale, designed to innovate, and is built to thrive with edge-cases.
-
 
 You can access a [full featured demo of TinyMCE](https://www.tiny.cloud/docs/demo/full-featured/) in the docs on the Tiny website.
 
